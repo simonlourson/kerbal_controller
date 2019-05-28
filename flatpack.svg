@@ -60,8 +60,8 @@
 				id="titleblock-text-editable"
 				style="font-size:5px;text-anchor:middle;fill:#000000;font-family:osifont"
 				xml:space="preserve">
-				<text freecad:editable="AUTHOR NAME" x="50" y="236"><tspan>AUTHOR NAME</tspan></text>
-				<text freecad:editable="DRAWING TITLE" x="140" y="236"><tspan>DRAWING TITLE</tspan></text>
+				<text freecad:editable="AUTHOR NAME" x="50" y="236"><tspan>LouisLOurson</tspan></text>
+				<text freecad:editable="DRAWING TITLE" x="140" y="236"><tspan>Kerbal Controller Flat Pack</tspan></text>
 				<text freecad:editable="SI-1" x="80" y="248"><tspan></tspan></text>
 				<text freecad:editable="SI-2" x="80" y="255"><tspan></tspan></text>
 				<text freecad:editable="FreeCAD DRAWING" x="80" y="262"><tspan>FreeCAD DRAWING</tspan></text>
@@ -70,10 +70,10 @@
 				<text freecad:editable="SI-6" x="80" y="283"><tspan></tspan></text>
 				<text freecad:editable="FC-SI" x="150" y="248"><tspan>A0</tspan></text>
 				<text freecad:editable="FC-SH" x="170" y="248"><tspan>X / Y</tspan></text>
-				<text freecad:editable="FC-SC" x="190" y="248"><tspan>SCALE</tspan></text>
+				<text freecad:editable="FC-SC" x="190" y="248"><tspan>1</tspan></text>
 				<text freecad:editable="PN" x="170" y="260"><tspan>PN</tspan></text>
 				<text freecad:editable="DN" x="170" y="272"><tspan>DN</tspan></text>
-				<text freecad:editable="FC-DATE" x="160" y="284"><tspan>DD/MM/YYYY</tspan></text>
+				<text freecad:editable="FC-DATE" x="160" y="284"><tspan>28/05/2019</tspan></text>
 				<text freecad:editable="FC-REV" x="190" y="284"><tspan>REV A</tspan></text>
 			</g>
 			<!-- Set display:none to hide FreeCAD Logo -->
@@ -90,8 +90,8 @@
 			</g>
 		</g>
 	</g>
-<g id="View"
-   transform="rotate(60,150,150) translate(150,150) scale(0.5,0.5)"
+<g id="ViewFinal"
+   transform="rotate(60,100,80) translate(100,80) scale(0.5,0.5)"
   >
 <g   fill="none"
    stroke="rgb(0, 0, 0)"
@@ -141,7 +141,7 @@
 
 
 <g id="Ortho_0_0"
-   transform="rotate(0,-552.5,690.213) translate(-552.5,690.213) scale(1,1)"
+   transform="rotate(90,100,-530) translate(100,-530) scale(1,1)"
   >
 <g   fill="none"
    stroke="rgb(0, 0, 0)"
@@ -166,13 +166,21 @@
 <path id= "14" d=" M 1324 438.092 L 1324 539.427 " />
 <path id= "15" d=" M 800 438.092 L 1324 438.092 " />
 <path id= "16" d=" M 800 539.427 L 1324 539.427 " />
+<path id= "17" d=" M 800 539.427 L 800 547.427 " />
+<path id= "18" d=" M 1324 539.427 L 1324 547.427 " />
+<path id= "19" d=" M 800 539.427 L 1324 539.427 " />
+<path id= "20" d=" M 800 547.427 L 1324 547.427 " />
+<path id= "21" d=" M 800 547.427 L 800 555.427 " />
+<path id= "22" d=" M 1324 547.427 L 1324 555.427 " />
+<path id= "23" d=" M 800 547.427 L 1324 547.427 " />
+<path id= "24" d=" M 800 555.427 L 1324 555.427 " />
 </g>
 </g>
 
 
 
-<g id="Ortho_0_001"
-   transform="rotate(-90,539.469,351.346) translate(539.469,351.346) scale(1,1)"
+<g id="OrthoLeftPanel"
+   transform="rotate(0,1000,350) translate(1000,350) scale(1,1)"
   >
 <g   fill="none"
    stroke="rgb(0, 0, 0)"
@@ -187,6 +195,27 @@
 <path id= "4" d=" M -22.1908 -98.1284 L 37.1199 -159.016 " />
 <path id= "5" d=" M 37.1199 -159.016 L -8.01136 -202.978 " />
 <path id= "6" d=" M -8.01136 -202.978 L -115.428 -202.978 " />
+</g>
+</g>
+
+
+
+<g id="OrthoRightPanel"
+   transform="rotate(0,750,350) translate(750,350) scale(1,1)"
+  >
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.350000"
+   transform="scale(1,-1)"
+  >
+<path id= "1" d=" M 115.428 -202.978 L 115.428 75.2378 " />
+<path id= "2" d=" M 115.428 75.2378 L 40.8219 82.9155 " />
+<path id= "3" d=" M 40.8219 82.9155 L 22.1908 -98.1284 " />
+<path id= "4" d=" M 22.1908 -98.1284 L -37.1199 -159.016 " />
+<path id= "5" d=" M -37.1199 -159.016 L 8.01136 -202.978 " />
+<path id= "6" d=" M 8.01136 -202.978 L 115.428 -202.978 " />
 </g>
 </g>
 
